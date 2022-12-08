@@ -12,7 +12,7 @@ This set of pipelines are specifically designed for students who want to use **s
 
 ----
 
-## Let's download the script templates I've written on github
+## Let's download the scripts from github
 
 **To obtain the repository of scripts**
 
@@ -43,7 +43,7 @@ $ cd ..
 
 -----
 
-## Prepare a metadata file
+## Let's prepare the metadata file
 
   * Prepare a metadata file in which:
     * The first column is the .fastq file
@@ -72,7 +72,7 @@ Note - You'll need to write this yourself based on the infomration you can obtai
 
 --- 
 
-Execute the script
+## Let's execute the script
 
   * Amend the #SBATCH commands
   * With the execute script, add the path to your metadata file
