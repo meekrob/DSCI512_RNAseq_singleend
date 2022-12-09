@@ -2,7 +2,8 @@
 
 ################################################
 # PROGRAM:
-# RNAseq_analyzer_221209.sh (David's edits)
+# RNAseq_analyzer_se_221209.sh (David's edits to make github.com/erinosb/2022_DSCI512_RNAseq_pairedend/RNAseq_analyzer_221126.sh into single end.
+# The above link is commit b1de6feade4b0f9e0a3d13118e5c5deeedd558d7
 #
 # DESCRIPTION:
 # This is a very basic RNA-seq pipeline that I use for analyzing fastq reads. Step1 is a
@@ -15,7 +16,7 @@
 # <yournamehere>
 #
 # START DATE:
-# November 26, 2022
+# November 26, 2022  (edited December 9, 2022)
 #
 # DEPENDENCIES:
 # 	Requires the installation of the follwing software: 
@@ -52,7 +53,7 @@
 #								sequence (.fa above).
 #
 # USAGE:
-# $ bash RNAseq_analyzer_221126.sh <metadata.txt> <number of threads>
+# $ bash RNAseq_analyzer_se_221209.sh <metadata.txt> <number of threads>
 #
 # OUTPUT:
 #
@@ -72,7 +73,7 @@ inputdir="<yourinputdir>"
 metadata=$1
 
 #This is where the ht2 files live:
-hisat2path="<hisatpath/previx>"
+hisat2path="<hisatpath/prefix>"
 
 #This is where the genome sequence lives:
 genomefa="<genome.fa>"
