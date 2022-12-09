@@ -2,7 +2,7 @@
 
 ################################################
 # PROGRAM:
-# RNAseq_analyzer_221126.sh
+# RNAseq_analyzer_221209.sh (David's edits)
 #
 # DESCRIPTION:
 # This is a very basic RNA-seq pipeline that I use for analyzing fastq reads. Step1 is a
